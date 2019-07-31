@@ -8,6 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		F3BABB9D22F1E4A100687BBA /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABB9C22F1E4A100687BBA /* main.swift */; };
+		F3BABBA922F1E59000687BBA /* Stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABBA322F1E59000687BBA /* Stack.swift */; };
+		F3BABBAA22F1E59000687BBA /* UnionFind.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABBA422F1E59000687BBA /* UnionFind.swift */; };
+		F3BABBAB22F1E59000687BBA /* Queue.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABBA522F1E59000687BBA /* Queue.swift */; };
+		F3BABBAC22F1E59000687BBA /* Math.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABBA622F1E59000687BBA /* Math.swift */; };
+		F3BABBAD22F1E59000687BBA /* BinarySearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABBA722F1E59000687BBA /* BinarySearch.swift */; };
+		F3BABBAE22F1E59000687BBA /* Heap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3BABBA822F1E59000687BBA /* Heap.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +31,12 @@
 /* Begin PBXFileReference section */
 		F3BABB9922F1E4A100687BBA /* Swift-lib-atcoder */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Swift-lib-atcoder"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3BABB9C22F1E4A100687BBA /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F3BABBA322F1E59000687BBA /* Stack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Stack.swift; sourceTree = "<group>"; };
+		F3BABBA422F1E59000687BBA /* UnionFind.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UnionFind.swift; sourceTree = "<group>"; };
+		F3BABBA522F1E59000687BBA /* Queue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Queue.swift; sourceTree = "<group>"; };
+		F3BABBA622F1E59000687BBA /* Math.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Math.swift; sourceTree = "<group>"; };
+		F3BABBA722F1E59000687BBA /* BinarySearch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BinarySearch.swift; sourceTree = "<group>"; };
+		F3BABBA822F1E59000687BBA /* Heap.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Heap.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,12 @@
 			isa = PBXGroup;
 			children = (
 				F3BABB9C22F1E4A100687BBA /* main.swift */,
+				F3BABBA722F1E59000687BBA /* BinarySearch.swift */,
+				F3BABBA822F1E59000687BBA /* Heap.swift */,
+				F3BABBA622F1E59000687BBA /* Math.swift */,
+				F3BABBA522F1E59000687BBA /* Queue.swift */,
+				F3BABBA322F1E59000687BBA /* Stack.swift */,
+				F3BABBA422F1E59000687BBA /* UnionFind.swift */,
 			);
 			path = "Swift-lib-atcoder";
 			sourceTree = "<group>";
@@ -119,7 +137,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3BABBA922F1E59000687BBA /* Stack.swift in Sources */,
+				F3BABBAA22F1E59000687BBA /* UnionFind.swift in Sources */,
+				F3BABBAD22F1E59000687BBA /* BinarySearch.swift in Sources */,
 				F3BABB9D22F1E4A100687BBA /* main.swift in Sources */,
+				F3BABBAB22F1E59000687BBA /* Queue.swift in Sources */,
+				F3BABBAC22F1E59000687BBA /* Math.swift in Sources */,
+				F3BABBAE22F1E59000687BBA /* Heap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
